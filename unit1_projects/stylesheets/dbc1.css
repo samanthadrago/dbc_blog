@@ -1,0 +1,29 @@
+.header {
+	background-color: #B88AE6;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #FFFFFF;
+}
+
+p {
+	background-color: #123456;
+	font-family: "Lucida Console", Monaco, monospace;
+	color: #B2CCCC;
+}
+
+ul {
+	background-color: #FFCCFF;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #1A1A66;
+}
+
+ol {
+	background-color: #66FF99;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #1A1A66;
+}
+
+#contact_me {
+	background-color: #FF0000;
+	color: #FFFFFF;
+	font-family: "Lucida Console", Monaco, monospace;
+}
