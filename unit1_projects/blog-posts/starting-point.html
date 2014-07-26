@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design and Fluid Layouts</title>
+  </head>
+  <body>
+
+    <div class="header">
+      <h1>Responsive Design and Fluid Layouts</h1>
+      <h3>Everything you wanted to know about Responsive Design, but were too scared to ask.</h3>
+      <h4>By: Samantha Drago and Shomari Ewing</h4>
+    </div>
+    <div class="wrapper">
+        <div class="responsive-design">
+          <h2>Responsive Design</h2>
+          <p>Responsive design is a way of building websites that are inherently optimized for a variety of screen sizes. With the proliferation of mobile devices and tablets, it's more crucial than ever to make sure your website looks and works nicely on all types of devices. This is a shift in thinking in the web design world - before people in the US were carrying <a href="http://securitywatch.pcmag.com/none/309173-infographic-everyone-is-carrying-too-many-mobile-devices" target="_blank">an average of three web-enabled devices</a><a href="#1"><sup>1</sup></a>, web designers were content to create a separate "mobile version" of their sites. But now that <a href="http://sender11.typepad.com/sender11/2008/04/mobile-screen-s.html" target="_blank">screen sizes can and do vary in an infinite number of configurations</a><a href="#2"><sup>2</sup></a>, it is more important than ever to design a web page with this in mind.</p>
+          <p>Repsonsive web pages are <a href="http://designmodo.com/responsive-design-examples/" target="_blank">"context aware"</a><a href="#3"><sup>3</sup></a>, which means they contain queries as to the size of the browser window being used to view them, and adjust their layout and properties accordingly. A straightforward illustration of this concept is a web page that, when viewed on a standard 960px browser window, includes three columns of photos. That same page, when viewed on a tablet at 700px, will contain two columns. And on an iPhone? Just a single column of content.</p>
+          <p>But this simple example is far from the only potential use of responsive design - in fact, many creative designers use the concepts to do unique and delightful things with their websites. Check out <a href="http://alistapart.com/article/responsive-web-design" target="_blank">Ethan Marcotte's brilliant article on responsive design</a><a href="#3"><sup>3</sup></a>, and try resizing the page to see what happens to the soccer team at the top.</p>
+          <p>This responsiveness to screen size happens largely thanks to <a href="#fluid_layouts">fluid layouts</a> and media queries. Media queries check for the size of the window, and then execute styling based on pixels. For example, you can specify that for windows less than 480px, your sidebar disappears altogether (which is what this page is designed to demonstrate).</div>
+        <div class="fluid-layouts">
+          <a name="fluid_layouts"><h2>Fluid Layouts</h2></a>
+          <p>When designing a web page, there are a few types of layouts you can use. One type of layout (and the one that has traditionally been the most popular is a <span>fixed layout</span>. Fixed layouts have a wrapper that is a fixed width (i.e. a certain number of pixels), and each component within the wrapper has either a fixed width or a percentage width. Fixed layouts are easier to build and use, and they help ensure that your web page looks the same across all screen sizes. However, they also create excessive white space for large screens, and require that smaller screens use a horizontal scroll bar (which no one enjoys).</p>
+          <p>In contrast to a fixed layout, a fluid layout uses percentages for widths of containers, and as a result, the page "fluidly" adapts to the size of the screen viewing it. These layouts are more user friendly, eliminate the whitespace and horizontal scroll bar for too-large or too-small screens, and generally make simple web pages look nicer. The downside to a fluid layout is that the designer has less control over how the viewer sees the page. Particularly if the page has many images or complexities, using a fixed layout may be preferable to help ensure consistency.<a href="#4"><sup>4</sup></a>
+        </div>
+    
+        <div class="your-conclusion">
+          <h2>Conclusion</h2>
+          <p>Responsive design and fluid layouts are definitely a welcome development in the web design world, particularly now that so many internet users access web pages from smartphones and tablets. As long as best practices are adhered to when building a responsive page (i.e. try to keep the design simple and don't incorporate too many complex elements), the resulting compatibility across all types of screen sizes is extremely beneficial for user experience and overall aesthetics.</p>
+        </div>
+    
+        <div class="reflection">
+          <h2>Reflection</h2>
+          <p>Implementing responsive design was an interesting experience - it was actually easier than I thought it would be! I found it helpful to draw out wireframes of different screen sizes before starting to style the elements on my page, to better visualize how the page would look in each situation.</p> 
+          <p>Smartphones and tablets (along with large monitors that many people use nowadays) have inarguably altered web design. The developments in responsive design would probably never have happened without the pressure from more and more users accessing the web from their smartphones. Moving forward, it seems like more and more devices are being designed to access the internet - not just cell phones, but refrigerators, thermostats, televisions, and more. This "internet of things" will certainly have an impact on how web developers conceive of and design pages for maximum use across all the "things"!</p>
+          <p>From what I know, it seems like some visually impaired people use software that reads aloud the content of the page to them. Others may use default settings in their browser to make the font sizes and colors legible. It is important to design web sites with these users in mind, not only to be inclusive to people of all abilities, but also more specifically because our aging population will likely have more and more web users who need these adaptations to browse the web comfortably.</p>
+          <p>As someone who uses her iPhone frequently to view content on the web, responsive design definitely resonates with me. There have been many times when I have tried to visit a web page on my phone, only to have it load so slowly, or be so difficult to read on my small screen, that I just give up on trying. On the other hand, visiting a website that is thoughtfully designed for smartphone users is always refreshing. This seems particularly relevant for websites that sell things - ideally, you want to make it as easy as possible for visitors to browse, find what they are looking for, and buy it, without needing to constantly resize or zoom the page in and scroll around awkwardly. I'm not sure I fully understand elastic design yet - the concept of "em" and how the page resizes based on font size chosen by the user. This is something I'm sure will make more sense once I have more experience and feel more comfortable with fluid design.</p>
+        </div>
+    </div>
+    <div class="sidebar">
+      <div class="references">
+        <h2>References</h2>
+        <ul>
+          <li><a name="1"><sup>1</sup></a><a href="http://securitywatch.pcmag.com/none/309173-infographic-everyone-is-carrying-too-many-mobile-devices">Security Watch</a></li>
+          <li><a name="2"><sup>2</sup></a><a href="http://sender11.typepad.com/sender11/2008/04/mobile-screen-s.html">Mobile Screen Size Trends</a></li>
+          <li><a name="3"><sup>3</sup></a><a href="http://designmodo.com/responsive-design-examples/">Responsive Design Examples</a></li>
+          <li><a name="4"><sup>4</sup></a><a href="http://www.smashingmagazine.com/2009/06/02/fixed-vs-fluid-vs-elastic-layout-whats-the-right-one-for-you/">Smashing Magazine</a></li>
+        </ul>
+       </div>
+    </div>
+  </body>
+</html>
