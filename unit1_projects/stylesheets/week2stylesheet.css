@@ -1,0 +1,87 @@
+#container {
+	width: 94%;
+	font-family: 'Raleway', sans-serif;
+	margin: 0 auto;
+
+}
+
+#nav {
+	
+	background-color: #0dccc0;
+	width: 100%;
+	height: 75px;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+
+#nav a {
+	color: #FFFFFF;
+}
+
+#nav a:hover {
+	color: #848484;
+}
+
+#title {
+	display: inline-block;
+	padding-left: 10px;
+	padding-top: 20px;
+}
+
+#links {
+	display: inline-block;
+	padding-left: 600px;
+	padding-top: 20px;
+
+}
+
+#bannerimg {
+	width: 99.3%;
+	left: 0;
+	top: 0;
+	position: relative;
+	background: 'unit1_projects/images/bigsur.jpg';
+	border-width: 5px;
+	border-style: solid;
+	border-color: #0dccc0;
+	border-bottom: none;
+}
+
+#bannerimg img {
+	width: 100%;
+}
+
+.content {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.post {
+	border-bottom-style: solid;
+	border-bottom-color: #0dccc0;
+	border-bottom-width: 5px;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.post h1 {
+	color: #0dccc0;
+}
+
+.post h2 {
+	color: #848484;
+}
+
+.post a:active {
+	color: #6A0888;
+}
+
+.post a:link {
+	color: #2E2EFE;
+}
+
+.post a:visited {
+	color: #0489B1;
+}
+
