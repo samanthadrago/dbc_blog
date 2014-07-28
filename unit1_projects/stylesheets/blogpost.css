@@ -146,6 +146,10 @@ body {
 	color: #6B2B4C;
 }
 
+.content li a{
+	color: #FFFFFF;
+	font-size: 20px;
+}
 .sidebar {
 	float: right;
 	width: 30%;
@@ -170,15 +174,11 @@ body {
 
 .sidebar ul li a { 
 	text-decoration: none;
-	padding: 1em;
+	font-size: 20px;
 }
 
 .sidebar ul li a:link {
 	color: #FFFFFF;
-}
-
-.sidebar ul li a:visited {
-	color: #C4BEC3;
 }
 
 .sidebar ul li a:hover {

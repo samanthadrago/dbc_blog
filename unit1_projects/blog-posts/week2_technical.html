@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/blogpost.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+	<title>Building things, breaking things</title>
+</head>
+<body>
+	<div id="container">
+		<div class="header">
+				<img class="header" src="../images/bigsur.jpg"/>
+				<h1 class="header_text">Building things, breaking things.<h1><br>
+				<h2 class="subheader_text">A Dev Bootcamp blog by Samantha Drago</h2>
+			</div>
+		<div class="navbar">
+			<div id="navcontainer">
+				<ul>
+					<li><a href="http://samanthadrago.github.io/index.html">Home</a></li>
+					<li><a href="https://github.com/samanthadrago" target="_blank">GitHub</a></li>
+					<li><a href="https://twitter.com/sfdrago" target="_blank">Twitter</a></li>
+				</ul>
+		</div>
+			<div class="content">
+				<h4>Sunday, July 27th, 2014</h4>
+				<h1>Week 2 Technical: Display Inline vs. Block vs. Inline Block</h1>
+				<p>When learning web design, it seems like there are a few things that beginners consistently get tripped up on. Absolute vs. relative positioning, class vs. id, and div vs. span have all caused me numerous headaches and frantic Google searches. This blog post is an attempt to explain the difference between displaying elements as inline, block, and inline-block.</p>
+				<h3>div vs. span</h3>
+				<p>First, a short explanation of the difference between a div and a span. Divs are considered "block" elements - they create a two-dimensional rectangle of space, and can be given height, width, margins, and padding. Spans, on the other hand, are "inline" elements - they don't create a rectangular block, and cannot take on properties like height, width, margins, or padding. Divs can contain other elements, and can only be contained by other block-level elements. Spans cannot contain block-level elements, and can be contained inside any type of element.</p>
+				<img src="http://4.bp.blogspot.com/-TiwOixlooJk/U4UyEnv_XpI/AAAAAAAACFs/NuuLz2IvoZ4/s1600/css-display-block-vs-inline-block.png"/>
+				<h3>display: block;</h3>
+				<p>By default, divs display as blocks. They take up as much space as you tell them to, and each new div appears on the next line, below the one above it. Giving a div the property display: block; in CSS is redundant - that's the way it will behave already. However, giving a span the display: block; property asks the span (normally inline) to behave like a div - as a block element. </p>
+				<h3>display: inline;</h3>
+				<p>On the flip side, the display: inline property is a way to tell a div to behave like a span. Rather than taking up the space that the rectangular div would normally carve out, the div will appear "inline" with the other elements it is near, and it will not automatically create any new lines below it.</p>
+				<h3>display: inline-block;</h3>
+				<p>Finally, you have display: inline-block; which gives you the best of both worlds! Telling a div to display in this way retains its "blockiness," letting it take up rectangular space, and padding and margins, but allows it to sit next to other inline elements. This is great for navigation bars, for example, where you may want each element to sit next to one another horizontally across the bar.</p>
+				<h3>Sources:</h3>
+				<ul>
+					<li><a href="http://dustwell.com/div-span-inline-block.html">Dustwell.com</a></li>
+					<li><a href="http://designshack.net/articles/css/whats-the-deal-with-display-inline-block/">Designshack.com</a></li>
+				</ul>
+
+			</div>
+		<div class="sidebar">
+			<h2>Travel Through Time</h2>
+			<ul>
+				<li><a href="http://samanthadrago.github.io/unit1_projects/blog-posts/starting-point.html">Responsive Design</a></li>
+				<li><a href="http://samanthadrago.github.io/unit1_projects/GPS1.1/gps1.1.html">Guided Pairing Session 1.1</a></li>
+				<li><a href="http://samanthadrago.github.io/unit1_projects/blog-posts/week1_cultural.html">Week 1 Cultural</a></li>
+				<li><a href="http://samanthadrago.github.io/unit1_projects/blog-posts/week1_technical.html">Week 1 Technical</a></li>
+			</ul>
+		</div>
+		<div id="footer">
+			<h3>Samantha Drago 2014</h3>
+		</div>
+	</div>
+</body>
+</html>
