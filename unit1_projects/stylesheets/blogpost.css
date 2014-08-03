@@ -121,6 +121,7 @@ body {
 	font-size: 20px;
 	padding-left: 30px;
 	padding-right: 10px;
+	line-height: 1.5;
 }
 
 .content img {
@@ -146,6 +147,11 @@ body {
 	color: #6B2B4C;
 }
 
+.content li{
+	color: #FFFFFF;
+	font-size: 20px;
+	line-height: 1.5;
+}
 .content li a{
 	color: #FFFFFF;
 	font-size: 20px;
