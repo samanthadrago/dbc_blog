@@ -30,6 +30,7 @@
 
 #links {
 	display: inline-block;
+	position: absolute;
 	padding-left: 600px;
 	padding-top: 20px;
 
@@ -53,7 +54,8 @@
 
 .content {
 	width: 60%;
-	margin: 0 auto;
+	float: left;
+	padding-left: 10px;
 }
 
 .post {
@@ -63,6 +65,7 @@
 	padding-left: 10px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	line-height: 1.5;
 }
 
 .post h1 {
@@ -84,4 +87,38 @@
 .post a:visited {
 	color: #0489B1;
 }
+.sidebar {
+	float: right;
+	width: 30%;
+	padding-top: 5px;
+	border-radius: 15px;
+	background-color: #0dccc0;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #FFFFFF;
+	color: #FFFFFF;
+	line-height: 1.5;
+}
 
+.sidebar h2 {
+	color: #FFFFFF;
+	font-size: 30px;
+	text-align: center;
+}
+
+.sidebar ul {
+	list-style-type: none;
+}
+
+.sidebar ul li a { 
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.sidebar ul li a:link {
+	color: #FFFFFF;
+}
+
+.sidebar ul li a:hover {
+	color: #6B2B4C;
+}
