@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="../stylesheets/week2stylesheet.css" type="text/css"/>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+	<title>Week 6 Technical</title>
+</head>
+<body>
+	<div id="container">
+		<div id="nav">
+			<div id="title">Building things, breaking things</div><div id="links"><a href="http://samanthadrago.github.io/index.html">Home</a> | <a href="http://samanthadrago.github.io/about_me.html">About Me</a></div>
+			</div>
+			<div id="bannerimg">
+				<img src="../images/bigsur.jpg"/>
+			</div>
+			<div class="content">
+				<div class="post">
+					<h1>Week 6 Technical: Classes vs. Modules</h1>
+					<h2>August 23, 2014</h2>
+					<p>As an object oriented programming language, Ruby has a few ways of giving your objects special attributes and abilities. First, there's the class. Each object is an instance of a class, so it inherits the built-in attributes and methods of that class, and that class's superclass (i.e. its parent class). One limitation to class inheritance in Ruby is that each class can have only one superclass, which makes it difficult to add more functionality to your objects. That's where modules come in. Modules can be "mixed in" to classes, giving the class even more methods to choose from. Think of a module like a bundle of methods and attributes that you can easily give to any class or object.</p>
+					<h3>When to use a class</h3>
+					<p>The main purpose of classes is to create instances of themselves. Create a class when you want to make at least one instance of that type of object. For example, you could create a Person class, and create multiple instances of that person class for each of your friends, like so:</p>
+					<img src="../images/person_class.PNG"/>
+					<p>Each of these new people inherits the properties and methods of the Person class, so that you don't have to create new methods for each of them.
+					<h3>When to use a module</h3>
+					<p>Modules serve two main purposes. First, they allow you to share functionality between classes. If you "include" a module when creating a class, objects of that class will be able to use all the methods from the module(s) that are "mixed in." Second, they act as a way to label (or create a "namespace") for a group of methods or functionality that logically should be grouped together. One built-in module that you're probably familiar with is the Enumerable module, which you can use with Ruby's array or hash classes (or mix in to your own classes!). It makes sense for all the Enumerable methods to be grouped together into a module, since all of them share the characteristic of iterating over a data set. Here's an example of how to create an mix a module in to a class:</p>
+					<img src="../images/module_example.png"/>
+					<p>Though the example is a bit silly, it demonstrates how mixing a module into a class gives you access to the methods in that module!</p>
+				</div>
+			</div>
+		<h3>Sources:</h3>
+		<ul>
+			<li><a href="http://rubylearning.com/satishtalim/modules_mixins.html">Modules Mixins</a></li>
+			<li><a href="http://matt.aimonetti.net/posts/2012/07/30/ruby-class-module-mixins/">Ruby Constructs: Class, Module, and Mixin</a></li>
+		</ul>
+	</div>
+</body>
+</html>
