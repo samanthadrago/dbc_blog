@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="../stylesheets/week2stylesheet.css" type="text/css"/>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+	<title>Week 7 Technical</title>
+</head>
+<body>
+	<div id="container">
+		<div id="nav">
+			<div id="title">Building things, breaking things</div><div id="links"><a href="http://samanthadrago.github.io/index.html">Home</a> | <a href="http://samanthadrago.github.io/about_me.html">About Me</a></div>
+			</div>
+			<div id="bannerimg">
+				<img src="../images/bigsur.jpg"/>
+			</div>
+			<div class="content">
+				<div class="post">
+					<h1>Week 7 Technical: SQL vs. NoSQL</h1>
+					<h2>August 29, 2014</h2>
+					<h3>Introduction</h3>
+					<p>I really enjoyed learning SQL and relational databases this week, and I was surprised to learn how many SQL haters there are out there on the World Wide Web! This blog post will explore the differences between SQL and NoSQL, and attempt to discover why SQL gets such a bad rap among programmers today.</p>
+					<p>A short anecdote before I dive into the pros and cons of SQL vs. NoSQL: before starting Dev Bootcamp, I worked as client services director for a software company in San Francisco. I remember the huge deal the dev team made about switching our database over to MongoDB (a NoSQL database) - though at the time, none of us non-devs had any idea why this was a groundbreaking change for our company.</p>
+					<p>So what are the differences between SQL and NoSQL? Why choose one over the other? And WHY is this topic such an utterly divisive one in the programming world?</p>
+					<h3>SQL vs. NoSQL: Background</h3>
+					<p>SQL technically refers to the programming language that programmers use to query (i.e. get info from) their relational databases. However, when people talk about SQL vs. NoSQL, they're usually referring to the relational database model itself, rather than the language. The relational database model has been around since the 1970s, which is both a testament to its power, and also its outdatedness. A database is relational if it is made up of a series of tables, much like those you'd find in an Excel spreadsheet, with columns and rows containing data. Each row holds the information for one "entity," and each column tracks a particular piece of data about each entity (name, phone number, address, etc.). Information in the tables is accessed, added, and changed using the language SQL.</p>
+					<p>On the other hand, the term NoSQL is short for "Not Only SQL," and as such, encompasses a variety of database types that don't fit into the relational model. Instead of utilizing tables and a strictly structured format, NoSQL databases offer a more free-flowing way of working with data. NoSQL databases are organized by documents, graphs, or key-value pairs. Proponents argue that NoSQL is more flexible and easier to use than relational databases.</p>
+					<h3>Pros and Cons</h3>
+					<p>Some common issues raised by SQL haters include:</p>
+					<ul>
+						<li>Relational databases and object oriented programming don't play well together. Mapping an object or class to single row in a single table is often not a sufficient solution.</li>
+						<li>Joins in relational databases can slow down the program, particularly with large databases and large userbases. (In fact, NoSQL was first developed by Google and Amazon to deal with their massive databases and the millions of queries they had to handle).</li>
+						<li>SQL and relational databases are old and unsexy. Similar to languages like C, SQL isn't really a "hip" or "trendy" technology, and as such, receives a fair amount of flack from programmers.</li>
+					</ul>
+					<p>Frequently cited rebuttals to these arguments include:</p>
+					<ul>
+						<li>Most web apps will never handle the amount of traffic Google or Amazon deal with, and modern relational systems have optimization to help speed up queries.</li>
+						<li>SQL is extremely popular and used everywhere. Simply learning the basic concepts behind relational databases and SQL give you a firm foundational understanding of data storage that will be applicable for whatever model you choose for your program.</li>
+						<li>It's easy to fear what you don't understand. A lot of the SQL hate comes from programmers who simply don't have a background in database management theory, which makes them shy away from SQL and gravitate toward NoSQL solutions (which often come with appealing marketing slogans that imply NoSQL is an "out-of-the-box" solution to data management).</li>
+					</ul>
+					<h3>Conclusion</h3>
+					<p>So who's right? Do the SQL haters have a point? Sure they do - SQL is old, clunky, and doesn't play nicely with object oriented design. But is NoSQL the be-all and end-all of database management? Of course not. There's no right or wrong answer - which model you choose will depend on the needs of your application. Dataconomy sums it up nicely: "If your data needs are changing rapidly, you need high throughput to handle viral growth, or your data is growing fast and you need to be able to scale out quickly and efficiently, maybe NoSQL is for you. But if the data you have isn't changing in structure and you're experiencing moderate, manageable growth, your needs may be best met by SQL technologies." 
+				<h3>Sources:</h3>
+					<ul>
+						<li><a href="http://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/">The Geek Stuff</a></li>
+						<li><a href="http://news.dice.com/2012/07/16/sql-vs-nosql-which-is-better/">SQL vs. NoSQL: Which Is Better?</a></li>
+						<li><a href="https://www.digitalocean.com/community/tutorials/understanding-sql-and-nosql-databases-and-different-database-models">Digital Ocean</a></li>
+						<li><a href="http://sql.learncodethehardway.org/book/introduction.html">Learn SQL the Hard Way</a></li>
+						<li><a href="http://dataconomy.com/sql-vs-nosql-need-know/">Dataconomy</a></li>
+						<li><a href="http://typicalprogrammer.com/programmers-vs-rdbms/">Typical Programmer</a></li>
+					</ul>
+				</div>
+			</div>
+
+	</div>
+</body>
+</html>
