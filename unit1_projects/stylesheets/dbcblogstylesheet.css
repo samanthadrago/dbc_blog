@@ -114,9 +114,20 @@
 	color: #848484;
 }
 
+.img_wrapper {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.centered img {
+	
+	margin: 0 auto;
+}
+
 .post img {
 	margin: 10px;
 }
+
 /* =========================================== */
 /* Footer */
 /* =========================================== */

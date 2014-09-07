@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="../stylesheets/dbcblogstylesheet.css" type="text/css"/>
+	<link rel="stylesheet" href="../stylesheets/reset.css" type="text/css"/>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+	<title>Week 8 Technical</title>
+</head>
+<body>
+	<div id="container">
+		<div id="nav">
+			<div id="title">Building things, breaking things</div><div id="links"><a href="http://samanthadrago.github.io/index.html">Home</a> | <a href="http://samanthadrago.github.io/about_me.html">About Me</a></div>
+		</div>
+		<div id="bannerimg">
+			<img src="../images/bigsur.jpg"/>
+		</div>
+		<div class="content">
+			<div class="post">
+				<h1>Week 8 Technical: Sorting Algorithms</h1>
+				<h2>September 5, 2014</h2>
+				<p>Here's a shuffled deck of 52 cards. Sort it.</p> 
+				<p>How would you approach this problem? Maybe you'd look at the first card in the deck, compare it to the second card, and move the second card to the top of the deck if it was smaller. Then, you'd repeat that with each new card, slotting it in between the cards that had already been sorted. It might take you around 3 minutes to sort the cards - not too bad. This is what's called an insertion sort, and it works great for small datasets like this one.</p>
+				<p>But what if instead of 52 cards, you were a librarian with 5,000 books to alphabetize? Insertion sort isn't looking too helpful anymore. On top of it being inefficient, you might run into physical limitations - you're going to exhaust yourself walking back and forth along your list of sorted books to slot them each in to place! What if you first divided the books into piles - a pile for each letter of the alphabet - and then sorted each pile individually using insertion sort? Then at the end, you'd combine your piles and voila! This would be much more efficient than trying to use insertion for the whole set of books. You're now using bucket sort, a "divide and conquer" style of sorting that breaks the (huge!) problem up into smaller, easier chunks.</p>
+				<p>Sorting is a quintessential programming problem. It is so fundamental to computer science that sorting questions commonly come up in technical job interviews. Even President Obama <a href="https://www.youtube.com/watch?v=k4RRi_ntQc8">knows a thing or two about sorting!</a> Check out <a href="https://www.youtube.com/watch?v=kPRA0W1kECg">this interesting animation</a> that visualizes how different algorithms sort large datasets.</p> 
+				<p>There are dozens of sorting algorithms out there, some of which are better than others for particular scenarios. Let's take a look at a few common sorting algorithms:</p>
+				<h3>Insertion Sort</h3>
+				<p>This is one of the simplest sorting algorithms; as you saw above, it's also one that is commonly used for "real world" sorting. Insertion sort iterates over each element in the list, removing the element and placing it in the sorted list in its appropriate position. This sort method is very inefficient on large datasets, but it is simple to implement and thus popular for smaller lists.</p>
+				<div class="img_wrapper"><img class="centered" src="http://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif"/></div>
+				</p>
+				<h3>Bubble Sort</h3>
+				<p>Another simple sort, bubble sort works by comparing adjacent values and switching their order if it is incorrect. It works through the list of values as many times as is needed for the whole list to become sorted. Bubble sort is a fairly inefficient algorithm mainly used to illustrate sorting concepts in computer science classes.</p>
+				<img src="http://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif"/>
+				<h3>Merge Sort</h3>
+				<p>Merge sort is one of the "efficient" sorts, meaning that it works relatively quickly on a large dataset. It works by dividing the dataset into sublists, then merging the sublists to create larger, sorted sublists, until the whole list is sorted. Merge sort is a popular default sorting algorithm for some languages, like Perl, Python (uses a variation called timsort), and Java.</p>
+				<img src="http://upload.wikimedia.org/wikipedia/commons/c/c5/Merge_sort_animation2.gif"</>
+				<h3>Quicksort</h3>
+				<p>Quicksort is also considered an efficient sort. It is similar to bucket sort in that it is a "divide and conquer" algorithm. A "pivot" point is selected; all elements larger than the pivot are placed after it, and all elements smaller than the pivot are placed before it. These sublists are again sorted with new pivots, until all the sublists have been sorted.</p>
+				<img src="http://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif"/>
+				<p>Computer scientists like coming up with "joke" sorting algorithms with names like "stooge sort" and "bogosort," which are extremely inefficient algorithms. For example, bogosort works by checking to see if the data is in order, and if it isn't, randomizing the order of the data and checking again, until the list happens to end up in order. This is a similar methodology to putting monkeys in a room with a typewriter and hoping for Shakespeare. While these types of sort algorithms serve no practical use, they are useful to contrast with efficient sorting algorithms.</p>
+				<img src="http://upload.wikimedia.org/wikipedia/commons/f/f8/Sorting_stoogesort_anim.gif"/>
+				<p>Images courtsey <a href="http://en.wikipedia.org/wiki/Sorting_algorithm">Wikepedia</a>.</p>
+			</div>
+		</div>
+		<div id="footer">
+			<ul class="icons">
+				<li><a href="https://twitter.com/sfdrago"><img class="icon" src="../images/icons/twitter.png"></a></li>
+				<li><a href="https://www.facebook.com/samantha.drago"><img class="icon" src="../images/icons/facebook.png"></a></li>
+				<li><a href="https://github.com/samanthadrago"><img src="../images/icons/github.png"><a></li>
+				<li><a href="https://plus.google.com/+SamanthaDrago1/posts"><img class="icon" src="../images/icons/google_plus.png"></a></li>
+				<li><a href="www.linkedin.com/pub/samantha-drago/1a/33b/90b/"><img class="icon" src="../images/icons/linkedin.png"></a></li>
+				<li><a href="http://instagram.com/sfdrago"><img class="icon" src="../images/icons/instagram.png"></a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
