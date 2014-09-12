@@ -11,55 +11,72 @@
 	right: 0;
 	left: 0;
 	top: 0;
-	background-color: #0dccc0;
+	background-color: #FD3E48;
 	width: 100%;
-	height: 100px;
+	height: 60px;
 	opacity: 0.5;
-	padding-bottom: 5px;
 }
 
-
-#title {
+#nav_links {
 	font-family: 'Raleway', sans-serif;
-	font-size: 35px;
-	color: #000000;
-	display: inline-block;
-	padding-left: 10px;
-	padding-top: 20px;
+	font-size: 20px;
 }
 
-#links {
-	font-family: 'Raleway', sans-serif;
-	padding-top: 10px;
-	padding-left: 10px;
-	font-size: 25px;
+#nav_links ul {
+	list-style-type: none;
+	text-align: center;
 }
 
-#links a {
+#nav_links ul li {
+	display: inline;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#nav_links a {
 	color: #000000;
 	text-decoration: none
 }
 
-#links a:hover {
-	background-color: #FFFFFF
+#nav_links a:hover {
+	background-color: #848484;
+	color: #FFFFFF;
+}
+
+#title {
+	font-family: 'Raleway', sans-serif;
+	padding-top: 200px;
+	padding-left: 50px;
+}
+
+#title h1 {
+	font-size: 60px;
+	color: #0dccc0;
+	font-weight: bold;
+}
+
+#title h2 {
+	padding-left: 80px;
+	font-size: 40px;
+	color: #FD6B72;
 }
 
 #bannerimg {
-	z-index: -1;
+	height: 600px;
+	background-size:cover; 
 	left: 0;
 	top: 0;
-	background: 'unit1_projects/images/bigsur.jpg';
+	background-image: url('../images/pond.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
 }
 
-#bannerimg img {
-	width: 100%;
-}
 
 /* =========================================== */
 /* Content */
 /* =========================================== */
 .content {
-	width: 60%;
+	width: 70%;
 	background: linear-gradient(to right, #FFFFFF, #D8FBF9, #FFFFFF);
 	margin: 0 auto;
 }
@@ -88,6 +105,52 @@
 
 .content p {
 	padding-bottom: 7px;
+}
+
+/* =========================================== */
+/* sections (about, tech, cultural, etc) */
+/* =========================================== */
+
+.about {
+	font-family: 'Karla', sans-serif;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	line-height: 2.5;
+}
+
+.about h1 {
+	padding-top: 30px;
+	color: #FD6B72;
+	font-weight: bold;
+	font-size: 45px;
+}
+.about p {
+	font-size: 20px;
+	line-height: 2.5;
+}
+
+.about a {
+	color: #0dccc0;
+}
+
+.about a:active {
+	color: #6A0888;
+}
+
+.about a:hover {
+	color: #848484;
+}
+
+.about img {
+	display: inline;
+	float: left;
+	height: 300px;
+	border: solid;
+	border-width: 2px;
+	border-color: #848484;
+	margin-right: 20px;
+
 }
 
 .post {
@@ -163,3 +226,4 @@
 .icons li a {
 	display: inline-block;
 }
+

@@ -1,134 +1,54 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Building things, breaking things.</title>
-		<link rel="stylesheet" href="unit1_projects/stylesheets/dbcblogstylesheet.css" type="text/css"/>
+		<title>Building things, breaking things: A Dev Bootcamp Adventure</title>
+		<link rel="stylesheet" href="unit1_projects/stylesheets/test.css" type="text/css"/>
 		<link rel="stylesheet" href="unit1_projects/stylesheets/reset.css" type="text/css"/>
 		<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+		<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+		<script src='unit1_projects/stylesheets/blogscripts.js' type="text/javascript"></script>
 	</head>
 	<body>
 		<div id="container">
+			<a name="top"></a>
 			<div id="nav">
-				<div id="title">Building things, breaking things</div><div id="links"><a href="http://samanthadrago.github.io/index.html">Home</a> | <a href="http://samanthadrago.github.io/about_me.html">About Me</a></div>
+				<!--fix links to lower in page/other pages -->
+				<div id="nav_links">
+					<ul> <!--add drop down menus with posts-->
+						<li><a href="#top">Home</a></li>
+						<li><a href="http://samanthadrago.github.io/tech.html">Technical Blog</a></li> 
+						<li><a href="http://samanthadrago.github.io/culture.html">Cultural Blog</a></li>
+						<li><a href="http://samanthadrago.github.io/projects.html">Projects</a></li>
+						<li><a href="#about">About Me</a></li>
+					</ul>
+				</div>
 			</div>
 			<div id="bannerimg">
-				<img src="unit1_projects/images/bigsur.jpg"/>
+				<div id="title">
+					<h1>Building things, breaking things.</h1><br>
+					<h2>a Dev Bootcamp Blog by Samantha Drago<h2>
+				</div>
 			</div>
 			<div class="content">
-					<div class="post">
-					<h1>Week 8: Cultural: Conflict</h1>
-					<h2>September 7th, 2014</h2>
-					<p>It's interesting to think about how I've dealt with conflict in my life...</p>
-					<a href="http://samanthadrago.github.io/unit1_projects/blog-posts/week8_cultural.html">Read more</a>
+					<div class="about">
+						<a name="about"></a>
+						<h1>It's me, Samantha!</h1><img src="unit1_projects/images/me2.jpg"/>
+						<p>Thanks for checking out my blog! I am an aspiring web developer currently enrolled in <a href="http://devbootcamp.com/">Dev Bootcamp</a> in San Francisco. After graduating from Harvard in 2011 with a degree in History of Science, I moved to San Francisco to experience life on the West Coast. I worked for a wonderful <a href="http://www.rotundasoftware.com/">tech company</a> for almost three years. In my role as Client Services Director, I helped non-profits leverage their volunteers and better serve their communities. But I wanted to challenge myself to learn something new, so I began teaching myself the basics of web development, and decided to take the plunge into a full-time bootcamp.</p>
+						<p>This blog is comprised of writing inspired by my time in Dev Bootcamp's Phase 0, during which students are encouraged to reflect on what they are learning, both <a href="http://samanthadrago.github.io/tech.html">technically</a> and <a href="http://samanthadrago.github.io/culture.html">culturally</a>. There are also a handful of one-off web design <a href="http://samanthadrago.github.io/projects.html">projects</a> filed under the projects tab. I hope you enjoy checking it out!</p>
+						<p>When I'm not coding, I spend my time reading in San Francisco's many beautiful parks, riding my bike, hiking, jumping horses over large obstacles, griping about social injustice on Twitter, cooing at puppies, changing my hair color, being snobby about beer, and hanging out with my four backyard chickens. Please feel free to contact me via social media using the links below!</p>
+					</div>
 				</div>
-					<div class="post">
-					<h1>Week 8: Technical: Sorting Algorithms</h1>
-					<h2>September 5th, 2014</h2>
-					<p>Here's a shuffled deck of 52 cards. Sort it...</p>
-					<a href="http://samanthadrago.github.io/unit1_projects/blog-posts/week8_technical.html">Read more</a>
-				</div>
-				<div class="post">
-					<h1>Week 7: Cultural: DBC Values</h1>
-					<h2>August 29th, 2014</h2>
-					<p>When I think of times in my life I have been most proud and content, the following values come to mind...</p>
-					<a href="http://samanthadrago.github.io/unit1_projects/blog-posts/week7_cultural.html">Read more</a>
-				</div>
-				<div class="post">
-					<h1>Week 7: Technical: SQL vs. NoSQL</h1>
-					<h2>August 29th, 2014</h2>
-					<p>I really enjoyed learning SQL and relational databases this week, and I was surprised to learn how many SQL haters there are out there on the World Wide Web!...</p>
-					<a href="http://samanthadrago.github.io/unit1_projects/blog-posts/week7_technical.html">Read more</a>
-				</div>
-				<div class="post">
-					<h1>Week 6: Cultural: Stereotype Threat</h1>
-					<h2>August 24th, 2014</h2>
-					<p>During my first week at college, we were asked to take placement tests in various subjects...</p>
-					<a href="http://samanthadrago.github.io/unit1_projects/blog-posts/week6_cultural.html">Read more</a>
-				</div>
-				<div class="post">
-					<h1>Week 6: Technical: Classes vs. Modules</h1>
-					<h2>August 23rd, 2014</h2>
-					<p>As an object oriented programming language, Ruby has a few ways of giving your objects special attributes and abilities...</p>
-					<a href="http://samanthadrago.github.io/unit1_projects/blog-posts/week6_technical.html">Read more</a>
-				</div>
-				<div class="post">
-					<h1>Week 5: Cultural</h1>
-					<h2>August 17th, 2014</h2>
-					<p>Pair programming was one of the most daunting things for me at the beginning of Phase 0...</p>
-					<a href="http://samanthadrago.github.io/unit1_projects/blog-posts/week5_cultural.html">Read more</a>
-				</div>
-				<div class="post">
-					<h1>Week 5: Technical: Classing it up, Scoping the Scene</h1>
-					<h2>August 17th, 2014</h2>
-					<p>Ruby is known as an Object Oriented programming language, which is a fancy way for saying (almost) everything in Ruby is an object...</p>
-					<a href="http://samanthadrago.github.io/unit1_projects/blog-posts/week5_technical.html">Read more</a>
-				</div>
-				<div class="post">
-					<h1>Week 4: Cultural</h1>
-					<h2>August 10th, 2014</h2>
-					<p>Tech has a problem...</p>
-					<a href="http://samanthadrago.github.io/unit1_projects/blog-posts/week4_cultural.html">Read more</a>
-				</div>
-				<div class="post">
-					<h1>Week 4: Technical: Array vs. Hash</h1>
-					<h2>August 10th, 2014</h2>
-					<p>Two of the built-in data structures in Ruby are arrays and hashes...</p>
-					<a href="http://samanthadrago.github.io/unit1_projects/blog-posts/week4_technical.html">Read more</a>
-				</div>
-				<div class="post">
-					<h1>Week 3: Cultural</h1>
-					<h2>August 2nd, 2014</h2>
-					<p>According to the test, my thinking style is about half concrete sequential and half concrete random...</p>
-					<a href="http://samanthadrago.github.io/unit1_projects/blog-posts/week3_cultural.html">Read more</a>
-				</div>
-				<div class="post">
-					<h1>Week 3: Technical: JavaScript: The Good, the Bad, the Ugly.</h1>
-					<h2>August 2nd, 2014</h2>
-					<p>JavaScript is an extremely popular programming language, and has many loyal and devoted followers...</p>
-					<a href="http://samanthadrago.github.io/unit1_projects/blog-posts/week3_technical.html">Read more</a>
-				</div>
-				<div class="post">
-					<h1>Week 2: Technical: Display Inline vs. Block vs. Inline Block</h1>
-					<h2>July 27th, 2014</h2>
-					<p>When learning web design, it seems like there are a few things that beginners consistently get tripped up on...</p>
-					<a href="http://samanthadrago.github.io/unit1_projects/blog-posts/week2_technical.html">Read more</a>
-				</div>
-				<div class="post">
-					<h1>Responsive Design: Everything you wanted to know, but were too scared to ask.</h1>
-					<h2>July 26th, 2014</h2>
-					<p>Responsive design is a way of building websites that are inherently optimized for a variety of screen sizes...</p>
-					<a href="http://samanthadrago.github.io/unit1_projects/blog-posts/starting-point.html">Read more</a>
-				</div>
-				<div class="post">
-					<h1>Guided Pairing Session 1.1: Pairing about Pairing</h1>
-					<h2>July 25th, 2014</h2>
-					<p>Pair programming is valuable because it externalizes the thought process in coding and it opens these thoughts to constructive collaboration...</p>
-					<a href="http://samanthadrago.github.io/unit1_projects/GPS1.1/gps1.1.html">Read more</a>
-				</div>
-				<div class="post">
-					<h1>Week 1: Cultural Blog</h1>
-					<h2>July 20th, 2014</h2>
-					<p>I can already tell that Dev Bootcamp is going to push me out of my comfort zone, both intellectually and culturally...</p>
-					<a href="http://samanthadrago.github.io/unit1_projects/blog-posts/week1_cultural.html">Read more</a>
-				</div>
-				<div class="post">
-					<h1>Week 1: Technical Blog: My Three Favorite Websites</h1>
-					<h2>July 20th, 2014</h2>
-					<p>I tend to be drawn to websites that are visually minimalist and draw their users toward content in unique ways....</p>
-					<a href="http://samanthadrago.github.io/unit1_projects/blog-posts/week1_technical.html">Read more</a>
-				</div>
-			</div>
 			<div id="footer">
 				<ul class="icons">
-					<li><a href="https://twitter.com/sfdrago"><img class="icon" src="unit1_projects/images/icons/twitter.	png"></a></li>
-					<li><a href="https://www.facebook.com/samantha.drago"><img class="icon" src="unit1_projects/images/icons/facebook.png"></a></li>
+					<li><a href="https://twitter.com/sfdrago"><img src="unit1_projects/images/icons/twitter.png"></a></li>
+					<li><a href="https://www.facebook.com/samantha.drago"><img src="unit1_projects/images/icons/facebook.png"></a></li>
 					<li><a href="https://github.com/samanthadrago"><img src="unit1_projects/images/icons/github.png"></a></li>
-					<li><a href="https://plus.google.com/+SamanthaDrago1/posts"><img class="icon" src="	unit1_projects/images/icons/google_plus.png"></a></li>
-					<li><a href="https://www.linkedin.com/pub/samantha-drago/1a/33b/90b/"><img class="icon" src="unit1_projects/images/icons/linkedin.png"></a></li>
-					<li><a href="http://instagram.com/sfdrago"><img class="icon" src="unit1_projects/images/icons/instagram.png"></a></li>
+					<li><a href="https://plus.google.com/+SamanthaDrago1/posts"> <img src="unit1_projects/images/icons/google_plus.png"></a></li>
+					<li><a href="https://www.linkedin.com/pub/samantha-drago/1a/33b/90b/"><img src="unit1_projects/images/icons/linkedin.png"></a></li>
+					<li><a href="http://instagram.com/sfdrago"><img src="unit1_projects/images/icons/instagram.png"></a></li>
 				</ul>
 			</div>
-		</div>
+	</div>
 	</body>
 </html>
